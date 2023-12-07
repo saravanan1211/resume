@@ -1,0 +1,322 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Satisfy&display=swap');
+  
+
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+  
+}
+html{
+    scroll-padding-top: 1.5rem;
+}
+:root{
+   --font-family2: 'Adamina', serif;
+
+    
+}
+.her{
+    width: 100%;
+    height: 100vh ;
+    display: flex;
+}
+
+.whe h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.whe h2{
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+.whe span{
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: violet;
+}
+.whe p span{
+    color:violet ;
+    font-size: 20px;
+}
+.cer{
+    justify-content: center;
+    display: flex;
+}
+.cer p{
+    font-size: 25px;
+}
+.cer p:hover{
+    color: blueviolet;
+    border-bottom: 2px solid green;
+}
+.navbar-nav a:hover{
+    background-color: aqua;
+
+}
+
+.rex{
+    width: 300px;
+    height: 300px;
+    border: 2px solid royalblue;
+    border-radius: 50%;
+    box-shadow: 5px 2px 10px 7px red;
+
+
+}
+.rex img{
+    width: 300px;
+    height: 300px;
+    border: 5px solid blue;
+    border-radius: 50%;
+}
+.rex img:hover{
+    transform: scale(1.16) translateY(10px);
+
+}
+.serve h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: violet;
+}
+.serve h1:hover{
+    color: blueviolet;
+}
+.serve h1::before{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: brown;
+    margin-left: -70px;
+    margin-top: 25px;
+}
+.serve h1::after{
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: brown;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.serve p{
+    font-size: 60px;
+
+ 
+}
+.pre{
+    border: 5px solid white;
+    background-color: black;
+    height: 50vh;
+    padding-top: 10%;
+    width: 80%;
+    border-radius: 10%;
+    box-shadow:2px 2px 5px 5px teal;
+
+}
+
+.pre p{
+    font-size: 18px;
+}
+
+.wer h1:hover{
+    border-bottom: 5px solid red;
+    width: 10%;
+}
+
+.wer p{
+    font-size: 60px;
+}
+.card-link{
+    color:black;
+    font-size: 20px;
+    color: tomato;
+}
+.card-link:hover{
+    color:violet;
+}
+.card-body h5{
+    font-size: 30px;
+    color: tomato;
+}
+.card-body p{
+    color:magenta;
+    font-size: 1.2rem;
+
+}
+.rer h5{
+    font-size: 25px;
+    color: tomato;
+}
+.rer h2{
+    
+    color: tomato;
+}
+
+.card img:hover{
+    transition: .5s;
+    transform: scale(1.1);
+}
+.card{
+    box-shadow:2px 2px 5px 5px teal  ;
+    border: 5px solid red;
+
+
+}
+.card:hover{
+    background-color: black;
+    color: white;
+}
+.dex{
+    box-shadow:2px 2px 5px 5px teal  ;
+    border: 5px solid red;
+    width: 25rem;
+    height: 35vh;
+    background-color: white;
+    border-radius: 5%;
+
+
+}
+.light{
+    box-shadow:2px 2px 5px 5px teal  ;
+    border: 5px solid red;
+    width: 40rem;
+    height: 35vh;
+    background-color: white;
+    border-radius: 5%;
+
+
+}
+.dex:hover{
+    background-color: black;
+    color: white;
+    
+
+
+}
+.progress{
+    margin-left: 20%;
+}
+
+
+.fer h3{
+    color: violet;
+}
+
+.icons i{
+    width: 50px;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: aqua;
+    padding: 12px 10px;
+    
+}
+.icons i:hover{
+    color: blueviolet;
+}
+.nav{
+    margin-left: 18%;
+}
+
+
+
+@media (max-width:1024px){
+    .navbar-nav a{
+        margin-top: 20px;
+    }
+    .her{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width:100%;
+        align-items:center ;
+
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .cer{
+        display: flex;
+        flex-direction: column;
+    }
+    .whe h1{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    .whe h2{
+        letter-spacing: 2px;
+        font-size: 30px;
+    }
+    .whe span{
+        font-size: 30px;
+        letter-spacing: 2px;
+        color: violet;
+    }
+    .whe p span{
+        color:violet ;
+        font-size: 20px;
+    }
+    .rex{
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+    
+    }
+    .rex img{
+        width: 250px;
+        height: 250px;
+    }
+    .serve h1{
+        font-size: 30px;
+    }
+    .serve p{
+        font-size:30px ;
+    }
+    .serve h1::before{
+        margin-top: 20px;
+    }
+    .serve h1::after{
+        margin-top: 20px;
+    }
+
+    .pre{
+        height: auto;
+        
+    }
+    .wer p{
+        font-size: 30px;
+    }
+    .first{
+        order: 2!important;
+    }
+    .second{
+        order: 1!important;
+      
+    }
+    .dex{
+        height:80vh;
+        width: auto;
+    }
+    .progress{
+        margin-bottom: 50px;
+    }
+    .light{
+        height:80vh;
+        width: auto;
+    }
+    
+    
+    
+
+    }
+
+
